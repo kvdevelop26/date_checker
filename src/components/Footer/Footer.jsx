@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles['footer-container']}>
-        Created by <span>kv.frontdev24</span> <small>@{year}</small>
+        Created by <span>Kovalenko Volodymyr</span> <small>@{year}</small>
       </div>
     </footer>
   );

@@ -43,7 +43,7 @@ export default function Form() {
           className={isValidated ? (isValid ? 'valid' : 'invalid') : ''}
           value={userInput}
           onChange={handleClick}
-          placeholder='01.01.2026'
+          placeholder='DD.MM.YYYY'
         />
         <button disabled={!userInput.trim()}>Validate</button>
         {userInput.length > 0 && <button type="button" onClick={clearInput} className={styles.clear}>Clear</button>}
