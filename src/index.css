@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #212529;
+  background: #f0f2f5;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.valid {
+  border: 1px solid #16a34a;
+}
+.invalid {
+  border: 1px solid #ff5500;
+}
+
+div.validBlock {
+  border-left: 4px solid #16a34a;
+}
+div.invalidBlock {
+  border-left: 4px solid #ff5500;
+}
